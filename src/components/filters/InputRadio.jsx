@@ -4,20 +4,20 @@ import { useProductsContext } from "../../contexts";
 const InputRadio = ({ data, name }) => {
   const {
     applyFilters,
-    filters: { rating },
+    filters: { discount },
   } = useProductsContext();
 
   return (
-    <label className="cursor-pointer">
+    <label className="cursor-pointer flex mb-2">
       <input
         type="radio"
         className="accent-current cursor-pointer"
         name={name}
         value={data}
         onChange={(e) => applyFilters(name, data)}
-        checked={data === rating}
+        checked={data === discount}
       />{" "}
-      {data} Stars & above
+      {data} % OFF
     </label>
   );
 };

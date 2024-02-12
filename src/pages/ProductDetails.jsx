@@ -10,7 +10,7 @@ import {
   useWishlistContext,
 } from "../contexts";
 import { getProductByIdService } from "../api/apiServices";
-import { StarRating } from "../components";
+import { Discounts } from "../components";
 import { notify } from "../utils/utils";
 
 const ProductDetails = () => {
@@ -56,10 +56,10 @@ const ProductDetails = () => {
               {product?.description}
             </p>
             <div className="flex items-center gap-1">
-              <StarRating />
+              <Discounts />
 
               <span className="text-xs text-gray-400">
-                ({product?.rating}) Rating
+                ({product?.discount}) Discount
               </span>
             </div>
           </div>
@@ -93,10 +93,10 @@ const ProductDetails = () => {
           <div className="flex gap-2 items-center pb-10 sm:pb-0">
             Price:
             <span className="ms-1 text-xl sm:text-2xl text-amber-600">
-              ₹{product?.newPrice}
+              Ksh.{product?.newPrice}
             </span>
             <span className="text-sm text-gray-600 line-through">
-              ₹{product?.price}
+              Ksh.{product?.price}
             </span>
           </div>
 

@@ -23,8 +23,8 @@ export const filterByPriceRange = (selectedRange, data) => {
     : data;
 };
 
-export const filterByRating = (selectedRating, data) => {
-  return data.filter(({ rating }) => rating >= selectedRating);
+export const filterByDiscount = (selectedDiscount, data) => {
+  return data.filter(({ discount }) => discount >= selectedDiscount);
 };
 
 export const filterByCheckbox = (selectedCategories, data) => {

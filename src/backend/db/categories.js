@@ -29,4 +29,53 @@ export const categories = [
       "Protect your eyes in style with our UV-protected sunglasses collection.",
     categoryImg: glassCategory2,
   },
+  {
+    _id: "1164f45b-1659-4631-88d7-47325bb21eff3",
+    categoryName: "beauty",
+    description:
+      "Protect your eyes in style with our UV-protected sunglasses collection.",
+    categoryImg: glassCategory2,
+  },
+  {
+    _id: "1164f45b-1659-4631-88d7-47325bb21eff2",
+    categoryName: "antiaging",
+    description:
+      "Protect your eyes in style with our UV-protected sunglasses collection.",
+    categoryImg: glassCategory2,
+  },
+  {
+    _id: "1164f45b-1659-4631-88d7-47325bb21eff2",
+    categoryName: "Medical Devices",
+    description:
+      "Protect your eyes in style with our UV-protected sunglasses collection.",
+    categoryImg: glassCategory2,
+  },
+  {
+    _id: "1164f45b-1659-4631-88d7-47325bb21eff2",
+    categoryName: "Offers",
+    description:
+      "Protect your eyes in style with our UV-protected sunglasses collection.",
+    categoryImg: glassCategory2,
+  },
+  {
+    _id: "1164f45b-1659-4631-88d7-47325bb21eff2",
+    categoryName: "Personal Care",
+    description:
+      "Protect your eyes in style with our UV-protected sunglasses collection.",
+    categoryImg: glassCategory2,
+  },
+  {
+    _id: "1164f45b-1659-4631-88d7-47325bb21eff2",
+    categoryName: "Snacks and Drinks",
+    description:
+      "Protect your eyes in style with our UV-protected sunglasses collection.",
+    categoryImg: glassCategory2,
+  },
+  {
+    _id: "1164f45b-1659-4631-88d7-47325bb21eff2",
+    categoryName: "Vitamins and Supplements",
+    description:
+      "Protect your eyes in style with our UV-protected sunglasses collection.",
+    categoryImg: glassCategory2,
+  },
 ];

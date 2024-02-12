@@ -46,15 +46,15 @@ const SingleProduct = ({ product }) => {
             <div className="flex flex-col">
               <span className="text-xl font-medium">{product.name}</span>
               <span className="flex items-center gap-1">
-                <span>{product.rating}</span>
+                <span>{product.discount}</span>
 
                 <GiRoundStar className=" text-yellow-400 mb-1" />
-                <span className="text-xs text-gray-400">Rating</span>
+                <span className="text-xs text-gray-400">Discounts</span>
               </span>
             </div>
 
             <div className="flex flex-col items-end">
-              <span className="text-amber-600">₹{product.newPrice}</span>
+              <span className="text-amber-600">Ksh.{product.newPrice}</span>
               <span className="text-sm text-gray-600 line-through">
                 {product.price}
               </span>
