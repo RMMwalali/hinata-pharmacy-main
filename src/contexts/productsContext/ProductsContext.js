@@ -87,6 +87,10 @@ const ProductsContextProvider = ({ children }) => {
     (product) => product.trending
   );
 
+  const skinCareProducts = state.allProducts.filter(
+    (product) => product.skinCare
+  );
+
   const addAddress = (newAddress) => {
     dispatch({
       type: addressTypes.ADD_ADDRESS,
@@ -133,6 +137,7 @@ const ProductsContextProvider = ({ children }) => {
         currentAddress,
         loading,
         trendingProducts,
+        skinCareProducts,
         updateInCartOrInWish,
         getProductById,
         applyFilters,

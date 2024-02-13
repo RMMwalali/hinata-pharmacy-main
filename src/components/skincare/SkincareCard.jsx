@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { AiOutlinePlus, AiOutlineCheck } from "react-icons/ai";
 
 
-const SkincareCard = (product) => {
+const SkincareCard = ({product}) => {
   return (
     <motion.div
       initial={{ x: 300, opacity: 0 }} // Initial position and opacity

@@ -100,6 +100,7 @@ export const products = [
     discount: 3.8,
     price: 2499,
     newPrice: 2300,
+    skinCare: true,
   },
   {
     _id: "95cd381c-32cf-46e5-8a75-05d30a421d6b",
@@ -132,6 +133,7 @@ export const products = [
     discount: 4.3,
     price: 2999,
     newPrice: 2599,
+    skinCare: true,
   },
   {
     _id: "ac072970-8dac-42fe-8c31-a8fa6fd4b64a",
@@ -164,6 +166,7 @@ export const products = [
     discount: 4.8,
     price: 4999,
     newPrice: 4300,
+    skinCare: true,
   },
   {
     _id: "c6dcde20-2e9f-470c-b76c-38b01ab7e16e",
@@ -213,6 +216,7 @@ export const products = [
     price: 2999,
     newPrice: 2399,
     trending: true,
+    skinCare: true,
   },
   {
     _id: "9e3419eb-e5f6-4813-8bf4-6d72b6498235",
@@ -358,6 +362,7 @@ export const products = [
     price: 1499,
     newPrice: 1399,
     trending: true,
+    skinCare: true,
   },
   {
     _id: "9ca598d9-7cb5-4fb0-8455-b43028f9cb96",
@@ -375,6 +380,7 @@ export const products = [
     price: 2999,
     newPrice: 2599,
     trending: true,
+    skinCare: true,
   },
   {
     _id: "51db0e19-b0e0-4d6e-bce0-739f1bd37ba7",
@@ -392,6 +398,7 @@ export const products = [
     price: 1299,
     newPrice: 1000,
     trending: true,
+    skinCare: true,
   },
   {
     _id: "35332c85-f853-407a-80f8-840069381a0d",
