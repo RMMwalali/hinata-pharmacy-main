@@ -63,14 +63,14 @@ const Navbar = () => {
         <section className="flex items-center">
           <Link
             to="/products"
-            className="mx-2 px-3 py-1 shadow-sm rounded-md text-white bg-yellow-700 text-sm hover:bg-yellow-800 transition"
+            className="mx-2 px-3 py-1 shadow-sm rounded-md text-white bg-[#AA468E] text-sm hover:bg-green-600 transition"
           >
             <span className="hidden xs:block">Explore</span>{" "}
             <MdOutlineExplore className="xs:hidden" />
           </Link>
           <ul className=" hidden md:flex justify-between text-2xl ps-1">
             <li
-              className="relative bg-gray-200  p-2 rounded-full hover:bg-yellow-800 hover:text-white cursor-pointer mx-2 transition shadow-sm"
+              className="relative bg-gray-200  p-2 rounded-full hover:bg-green-600 hover:text-white cursor-pointer mx-2 transition shadow-sm"
               onClick={() => navigate("/wishlist")}
             >
               <BsBookmarkHeart />
@@ -81,7 +81,7 @@ const Navbar = () => {
               )}
             </li>
             <li
-              className="relative bg-yellow-500 text-white p-2 rounded-full hover:bg-yellow-800 cursor-pointer mx-2 transition shadow-sm"
+              className="relative bg-[#AA468E] text-white p-2 rounded-full hover:bg-green-600 cursor-pointer mx-2 transition shadow-sm"
               onClick={() => navigate("/cart")}
             >
               <HiOutlineShoppingBag />

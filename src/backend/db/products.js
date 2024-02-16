@@ -84,6 +84,7 @@ export const products = [
     price: 2999,
     newPrice: 2000,
     trending: true,
+    skinCare: true,
   },
   {
     _id: "fd25068a-9647-45ba-b44d-c8af1523148a",

@@ -13,8 +13,8 @@
 .custom-bg-gradient {
   background: linear-gradient(
     180deg,
-    rgba(226, 169, 45, 1) 0%,
-    rgba(148, 62, 14, 1) 100%
+    rgba(245, 100, 204, 1) 0%,
+    rgba(170, 70, 142, 1) 100%
   );
 }
 .card {

@@ -6,14 +6,14 @@ const Discount = ({ product }) => {
   return discountDiff ? (
     <>
       {new Array(Math.floor(product?.discount ?? 5)).fill().map((i) => (
-        <GiRoundStar className=" text-yellow-400 mb-1" />
+        <GiRoundStar className=" text-green-400 mb-1" />
       ))}
-      <BsStarHalf className=" text-yellow-400 mb-1" />
+      <BsStarHalf className=" text-green-400 mb-1" />
     </>
   ) : (
     new Array(Math.floor(product?.discount ?? 5))
       .fill()
-      .map((i) => <GiRoundStar className=" text-yellow-400 mb-1" />)
+      .map((i) => <GiRoundStar className=" text-green-400 mb-1" />)
   );
 };
 
